@@ -30,4 +30,5 @@ Y = iris.target
 
 st.write(X)
 st.write(Y)
+st.write(iris)
 
