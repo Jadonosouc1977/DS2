@@ -19,5 +19,5 @@ def user_input_features():
   features = pd.DataFrame(data,index=[0])
   return features
 
-#df = user_input_features()
+df = user_input_features()
 
