@@ -1,4 +1,4 @@
-import streamlit as st
+#import streamlit as st
 import pandas as pd
 from sklearn import datasets
 from sklearn.ensemble import RandomForestClassifier
@@ -43,6 +43,7 @@ st.write(iris.target_names[prediction])
 st.subheader('Predictoon Probability')
 st.write(prediction_proba)
 
-
+#######
+st.write(prediction)
 
 
