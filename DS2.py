@@ -43,5 +43,6 @@ st.write(iris.target_names[prediction])
 st.subheader('Predictoon Probability')
 st.write(prediction_proba)
 
-
+####4
+st.write(iris.target_names)
 
