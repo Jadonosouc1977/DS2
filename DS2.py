@@ -24,3 +24,10 @@ df = user_input_features()
 st.subheader('User Input Parameters')
 st.write(df)
 
+iris = datasets.load_iris()
+X = iris.data
+Y = iris.target
+
+st.write(X)
+st.write(Y)
+
